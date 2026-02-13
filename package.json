@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "predeploy": "bun run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -r https://github.com/HasAlAhmed/graphql.git",
     "lint": "eslint .",
     "preview": "vite preview"
   },
